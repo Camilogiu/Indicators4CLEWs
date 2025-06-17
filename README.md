@@ -125,4 +125,4 @@ MIT License
 - [OSeMOSYS](https://www.osemosys.org/)
 - [otoole](https://otoole.readthedocs.io/en/latest/)
 - MUIO OSeMOSYS User Interface
-- [IAMCOMPACT](https://www.iam-compact.eu/) project 
+- [IAMCOMPACT](https://www.iam-compact.eu/) project has received funding from the European Union's HORIZON EUROPE Research and Innovation Programme under grant agreement No 101056306. 
