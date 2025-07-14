@@ -47,7 +47,7 @@ Once this is done you can run the notebook.
 
 Note that if the indicator is of interest, the user will also have to make sure that it is feasible according to the model. For example, it is not possible to display the indicator *Forest_share* if there is no *forest* technolgy.
 
-Before modifying the notebook, you can use the data in the `Test` folder for testing the worflow and its functionalities.
+Before modifying the notebook, you can use the data in the `Test` folder for testing the worflow and its functionalities. The associated results.txt file can be found in the Zenodo repository https://zenodo.org/records/15688395
 
 ## Notebook structure
 
