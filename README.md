@@ -4,6 +4,8 @@
 
 This tool enhances the visualization of study outcomes, enabling both direct interaction with key parameters—such as forest area ratio, agricultural land use, and the share of irrigated land—and broader, cross-sectoral analyses. These may include indicators not strictly confined to CLEWs, such as the Biodiversity Index or the average annual water stress.  
 
+The main branch is for CLEWs studies at National level (e.g. only one modelled region). The branch "clusters", offers the possibility to analyse part of the indicators for CLEWs models with 4 clusters.
+
 ---
 
 ## Features
@@ -25,8 +27,8 @@ This tool enhances the visualization of study outcomes, enabling both direct int
 
 3. Create and activate the environment:
 ```bash
-conda env create -f otoole.yml
-conda activate otoole-env
+conda env create -f environment.yml
+conda activate environment-env
 ```
 ---
 
@@ -47,7 +49,7 @@ Once this is done you can run the notebook.
 
 Note that if the indicator is of interest, the user will also have to make sure that it is feasible according to the model. For example, it is not possible to display the indicator *Forest_share* if there is no *forest* technolgy.
 
-Before modifying the notebook, you can use the data in the `Test` folder for testing the worflow and its functionalities. The associated results.txt file can be found in the Zenodo repository https://zenodo.org/records/15688395
+Before modifying the notebook, you can use the data in the `Test` folder for testing the worflow and its functionalities. The associated model can be found in the Zenodo repository https://zenodo.org/records/15688395
 
 ## Notebook structure
 
@@ -109,6 +111,12 @@ Each part of the Notebook and each indicator (meaning and formulas) will be furt
 The model.v.5.2.txt and the config_com.yaml files were taken from the repository OSeMOSYS-Solver-script (https://github.com/ShravanKumar23/OSeMOSYS-Solver-script/tree/main). The part of the code used for converting the data.txt file into .csv files and for fixing the data.txt file, was taken and dapted to this workflow from the same repository.
 
 ---
+
+## Use of AI tools
+Parts of this project (code editing and debugging)
+were assisted by AI tools (Copilot). All results were reviewed,
+tested, and validated by the authors.
+
 
 ## License
 
