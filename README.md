@@ -28,7 +28,7 @@ The main branch is for CLEWs studies at National level (e.g. only one modelled r
 3. Create and activate the environment:
 ```bash
 conda env create -f environment.yml
-conda activate environment-env
+conda activate i4clews
 ```
 ---
 
